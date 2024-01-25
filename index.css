@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(180deg, #ea6fbb, #faa1e2, #e1147b)
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, #ea6fbb, #faa1e2, #e1147b);
+    padding: 8px;
+    margin-bottom: 5px;
+}
+.logo{
+    width: 200px;
+}
+.titulo_logo{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+/*the end topo*/
+.tops{
+    font-family: sans-serif;
+    line-height: 22px;
+    margin: 0 auto;
+    background-color: #cccccc7a;
+    padding: 15px;
+}
+.topo{
+    margin: 0 auto;
+    text-align: justify;
+}
+.titulos{
+    text-align: center;
+    padding-bottom: 25px;
+}
+/*the end historia*/
+.beneficio{
+    margin: 0 auto;
+    text-align: justify;
+    font-family: sans-serif;
+    padding: 28px;
+    line-height: 25px;
+}
+.titulosa{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+.pele{
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+/*the end beneficios*/
+.servicos{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+    flex-grow: 1;
+}
+.card_img{
+    width: 350px;
+    height: 250px;
+    padding-bottom: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 4px;
+    gap: 20px;
+}
+.card{
+    box-shadow: 1px 1px 4px black;
+    padding: 8px;
+    /*
+    background: linear-gradient(180deg, #ea6fbb, #faa1e2, #e1147b);
+    */
+    background-color: white;
+}
+@media  (max-width: 1020px){
+    .card{
+    flex-grow: 1;
+}
+}
+.card:hover{
+    box-shadow: 1px 1px 4px 5px #954bca;
+}
+.card_title{
+    padding-bottom: 8px;
+    color: black;
+    text-shadow: 1px 1px 4px white;
+}
+.whatsapp{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    background: linear-gradient(90deg, #09811f, #42e960, #03941e);
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.whatsapp a:hover{
+    background-color: #09811f;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+/*The end cards*/
+.table{
+    margin: 0 auto;
+}
+.tabela{
+    margin: 35px auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    justify-content: space-around;
+    gap: 5px;
+}
+table tr:nth-last-of-type(even){
+    background-color: #cccccc7a;
+}
+table tr:nth-last-child(odd){
+    background-color: #8888889f;
+}
+.tabelas{
+    text-align: center;
+    align-items: center;
+    line-height: 30px;
+    font-size: 22px;
+}
+th td{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+}
+.linha{
+    border-bottom: 1px solid black;
+    width: 203px;
+    height: 1px;
+}
+th{
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+/*the end tabela*/
+
+.endereco{
+    margin-top: 22px;
+    background-color: #8888889f;
+    padding: 5px;
+    line-height: 35px;
+    background-attachment: fixed;
+    margin-bottom: 8px;
+}
+span{
+    font-weight: bold;
+    color: black;
+}
+.endereco_text{
+    text-align: center;
+    padding-bottom: 15px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+.endereco_paragrafo{
+    color: white;
+    font-size: 22px;
+}
+/*the end endereço*/
+
+.card_final{
+    padding: 15px;
+    font-family: sans-serif;
+    line-height: 30px;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-size: 22px;
+    background: linear-gradient(90deg, #8888889f, #cccccc7a, #ccccccb7);
+}
+
+.final_text{
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    padding-bottom: 25px;
+}
+.paragrafo{
+    text-align: justify;
+}
+/*card_final*/
+
+footer{
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #8888889f;
+}
+.logo_final{
+    width: 80px;
+    height: 100%;
+}
+.desenv{
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.instagram{
+    text-decoration: none;
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    background: linear-gradient(90deg, #d21b54, #964dcc);
+}
